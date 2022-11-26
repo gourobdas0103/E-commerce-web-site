@@ -34,5 +34,5 @@ smallimg [3].onclick = function(){
 const bg = document.getElementById("hero")
 window.addEventListener('scroll', function(){
     bg.style.backgroundSize = 100 - +window.pageYOffset/12+'vh';
-    bg.style.opacity = 5 - +window.pageYOffset/700+' ';
+    bg.style.opacity = `${5 - +window.pageYOffset / 700} `;
 })
